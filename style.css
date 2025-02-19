@@ -1,0 +1,16 @@
+.title-text{
+    text-align: center;
+}
+.general-divider{
+    width: 60%;
+}
+.skills-table{
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.skills-cell{
+    outline-style: solid;
+    outline-width: 1px;
+    width: 30vw;
+}
