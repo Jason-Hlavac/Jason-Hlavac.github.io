@@ -1,3 +1,7 @@
+html, body{
+    margin: 0;
+    overflow-x: hidden;
+}
 .title-text{
     text-align: center;
 }
@@ -13,4 +17,20 @@
     outline-style: solid;
     outline-width: 1px;
     width: 30vw;
+}
+.landing-screen{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    position: relative;
+    margin-top: 0;
+}
+
+.landing-text{
+    transform: translateY(30vh);
+}
+
+.main-body{
+    min-height: 100vh;
 }
